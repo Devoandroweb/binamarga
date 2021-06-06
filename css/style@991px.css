@@ -1,0 +1,25 @@
+@media (max-width: 991.98px) {
+  .logo-header{
+    width: 50% !important;
+  }
+  .wedd-sub-nav{
+    text-align: left;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    font-family: Q-l !important;
+  }
+  .wedd-sub-nav a{
+      display: block;
+      margin-right: 0rem;
+  }
+  .btn-masuk{
+    background: #fff;
+    color: #034EA2;
+    text-decoration: none;
+    padding: 0rem;
+    border-radius: 2rem;
+  }
+  .wedd-sub-nav a:hover{
+      color: #000000 !important;
+  }
+
+}
