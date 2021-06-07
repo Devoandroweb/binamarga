@@ -59,6 +59,19 @@
   top: 2%;
   position: absolute;
 }
+.menu-top{
+  width: 88%;
+  padding: 1rem;
+  background: #2c435d !important;
+  margin-bottom: 1rem;
+  top: 0 !important
+}
+.menu-top .search{
+  position: static !important;
+  float: right;
+  width: 100%;
+  text-align: end;
+}
 /*li .active > a:hover::after {
   color: #FFC856 !important;
 }*/
@@ -682,4 +695,79 @@
 }
 .head-artikel{
   font-size: 60pt !important;
+}
+.berita p{
+  font-family: Q-l;
+}
+.share-fb,.share-tw,.share-wa{
+  color: white;
+  text-decoration: none;
+  font-family: Q-b;
+  padding: 0.5rem;
+}
+.share-fb:hover,.share-tw:hover,.share-wa:hover{
+  color: white;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  transition: all 0.5s; 
+
+}
+.share-fb{
+    background: #1877f2;
+}
+.share-tw{
+    background: #00acee;
+}
+.share-wa{
+    background: #46c456;
+}
+.btn-share{
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+}
+.berita-lainnya a{
+  color: black;
+}
+/* [1] The container */
+.zoom {
+
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.zoom img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.zoom:hover img {
+  transform: scale(1.5);
+}
+.berita-lainnya p{
+  text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+}
+.berita-terkini .item-berita-terkini:hover {
+    margin-left: 1rem;
+    transition: all 0.5s;
+}
+.item-berita-terkini{
+  margin-left: 0rem;
+  transition: all 0.5s;
+}
+.item-berita-terkini a{
+  text-decoration: none;
+}
+.item-berita-terkini a:hover p{
+  color: #ffc856;
+  transition: all 0.5s;
+}
+.item-berita-terkini p{
+  text-decoration: none;
+  color: #212529;
+  transition: all 0.5s;
+
 }
